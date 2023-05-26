@@ -1,13 +1,20 @@
 file:///C:/Users/is064/OneDrive/Documentos/GitHub/DIO-desafio-git-github/projetosHtml/projetos-html/index.html#inicio
 # projetos-html
 Primeiros passos com HTML
+
 História  da web
+
 Comunicação client X server
+
 HTML conceito
+
 Introdução ao HTML
+
 O que são tags
+
 Referências
 História da web
+
 (Home)
 A web foi criada em 1989 por Tim Berners-Lee, um cientista da computação que trabalhava no CERN, um laboratório de pesquisa na Suíça. Ele queria facilitar a troca de informações entre os pesquisadores do mundo todo, usando a internet como meio. Para isso, ele desenvolveu um sistema de hipertexto, que permite ligar documentos entre si por meio de links. Ele também criou a primeira versão do HTML, a linguagem usada para estruturar os documentos na web, e o primeiro navegador web, chamado WorldWideWeb.
 
