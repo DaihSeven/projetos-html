@@ -1,0 +1,73 @@
+/* Estilo do menu lateral */
+.menu {
+    height: 100%; /* Altura total da barra lateral */
+    width: 250px; /* Largura da barra lateral */
+    position: fixed; /* Fixa a barra lateral na posição */
+    z-index: 1; /* Fica no topo */
+    top: 0; /* Alinha o topo com o topo da página */
+    left: 0; /* Alinha o lado esquerdo com o lado esquerdo da página */
+    background-color: #f39ee5; /* Cor de fundo */
+    overflow-x: hidden; /* Esconde o conteúdo que ultrapassa a largura da barra lateral */
+    padding-top: 20px; /* Espaçamento no topo */
+    display: flex; /* Faz a barra lateral se comportar como um container flexível */
+    flex-direction: column; /* Organiza os itens do menu em uma coluna */
+    list-style:decimal /* Remove as bolinhas do lado dos links do menu */
+  }
+  
+  /* Estilo dos links do menu */
+  .menu a {
+    padding: 6px 8px 6px 16px; /* Espaçamento interno */
+    text-decoration:none; /* Remove os sublinhados */
+    font-size: 15px; /* Tamanho da fonte */
+    color: #080000; /* Cor do texto */
+    display: block; /* Faz os links aparecerem em blocos, um abaixo do outro */
+    margin-left: 0px; /* Remove a margem esquerda dos links do menu */
+  }
+  
+  /* Muda a cor dos links ao passar o mouse sobre eles */
+  .menu a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Alinha o último link do menu com o final da barra lateral e cria um espaço entre ele e o penúltimo link */
+  .menu a:last-child {
+    align-self: flex-end;
+    margin-bottom: auto;
+  }
+  
+  /* Cria uma margem esquerda de 250 pixels para empurrar o conteúdo da página para a direita */
+  body {
+    margin-left: 250px;
+  }
+  
+  /* Alinha o texto horizontalmente no centro da página */
+  body {
+    text-align: center;
+  }
+  
+  /* Estilo da tabela */
+table {
+    border-collapse: collapse; /* Remove os espaços entre as células */
+    width: 80%; /* Define a largura da tabela como 80% da largura da página */
+    margin: 0 auto; /* Centraliza a tabela horizontalmente na página */
+  }
+  
+  /* Estilo das células da tabela */
+  td, th {
+    border: 1px solid #dddddd; /* Adiciona uma borda cinza clara às células */
+    text-align: left; /* Alinha o texto à esquerda nas células */
+    padding: 8px; /* Adiciona um espaçamento interno às células */
+  }
+  
+  /* Estilo do cabeçalho da tabela */
+  th {
+    background-color: #f09ede; /* Define a cor de fundo do cabeçalho como verde */
+    color: rgb(10, 8, 8); /* Define a cor do texto do cabeçalho como branco */
+  }
+  
+  /* Estilo das linhas ímpares da tabela */
+  tr:nth-child(odd) {
+    background-color: #ce84b8; /* Define a cor de fundo das linhas ímpares como cinza claro */
+  }
+  
+  
