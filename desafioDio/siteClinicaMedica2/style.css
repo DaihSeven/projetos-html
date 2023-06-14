@@ -3,7 +3,7 @@ body{
     display: flex;
 }
 main{
-    display:grid;
+    display:flex;
     grid-template-areas: 
     "side head head"
     "side nav nav"
